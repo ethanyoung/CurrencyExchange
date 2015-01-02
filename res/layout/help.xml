@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="添加和删除货币"
+	android:textSize="20sp"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="货币兑换程序内置20种货币，需要添加或者删除货币，点击edit按钮，程序会进入货币选择界面。在该界面下货币根据3个字母的货币简写排列，用户通过触击某一行，改变复选框的状态，来使货币是否显示在主界面中。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/setting"
+	android:textSize="20sp"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/CurrencySettings"
+	android:textSize="18sp"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="\n更新：应用多久自动更新一次。若值为0表示不自动更新。必须大于24小时，应用只有再打开的时候才会自动更新。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="排序主屏幕：主屏幕中的列表如何排序\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="排序货币选择界面：排序货币选择界面，依据国家名或者货币简写，正序或者倒序\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="自定义货币：用户自定义货币可以设置名称、3位字母的简写、货币符号、以及转换时的汇率。自定义货币可以像其他货币一样添加至主屏幕。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/NumberFormat"
+	android:textSize="18sp"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="\n小数点位数：设置小数点之后保留的位数。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="千位符号：设置每三位用于分隔数字的符号。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="小数点符号：设置小数点符号。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/DateTimeFormat"
+	android:textSize="18sp"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="\n日期格式：有 月份-日期-年份、日期-月份-年份、年份-月份-日期 三种供选择。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="时间格式：设置12小时或者24小时制。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/Miscellaneous"
+	android:textSize="18sp"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="\n税额：设置税额值，来增加或者减少货币转换后的结果。\n"
+	/>
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="启动项：如果打开启动项，那么程序刚打开时会使用上一次使用时输入的值。\n"
+	/>
+	</LinearLayout>
+</ScrollView>

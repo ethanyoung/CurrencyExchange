@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">货币兑换</string>
+	    <string name="setting">设置</string>
+	    <string name="help">帮助</string>
+	    <string name="back">返回</string>
+	    	<string name="CurrencySettings">货币设置</string>
+	    		<string name="Updates">更新</string>
+	    		<string name="UserCurrency">用户货币</string>
+	    	<string name="NumberFormat">数据格式</string>
+	    	<string name="DateTimeFormat">日期和时间格式</string>
+	    	<string name="Miscellaneous">杂项</string>
+	    		<string name="TaxAmount">税额</string>
+	 <string name="SelectCurrencies">选择货币</string>
+</resources>
